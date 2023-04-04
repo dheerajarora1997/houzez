@@ -1,0 +1,27 @@
+@import '../_getBootstrap.scss';
+
+@import '../../../node_modules/bootstrap/scss/_carousel';
+
+.carousel-slider {
+ min-height: 500px;
+ text-align: center;
+
+ .carousel-item {
+  max-height: 900px;
+  height: 600px;
+  min-height: calc(100vh - 100px);
+
+  .carousel-caption {
+   text-align: left;
+   bottom: calc(50% - 80px);
+  }
+ }
+
+ img {
+  width: auto;
+  min-height: 800px;
+  max-height: calc(100vh - 90px);
+  margin: 0 auto;
+  filter: blur(0);
+ }
+}
