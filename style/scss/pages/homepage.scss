@@ -1,6 +1,6 @@
 @import '../_getBootstrap.scss';
 
-@import '../../../node_modules/bootstrap/scss/_carousel';
+@import '../../../node_modules/bootstrap/scss/_carousel', '../../../node_modules/bootstrap/scss/forms';
 
 .carousel-slider {
  min-height: 500px;
@@ -23,5 +23,14 @@
   max-height: calc(100vh - 90px);
   margin: 0 auto;
   filter: blur(0);
+ }
+}
+
+ul.features{
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+ li{
+  margin-right: 10px;
  }
 }
