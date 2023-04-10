@@ -13,7 +13,12 @@
 
   .carousel-caption {
    text-align: left;
-   bottom: calc(50% - 80px);
+   @media only screen and (max-width: 991px){
+    bottom: calc(50% - 120px);
+   }
+   @media only screen and (min-width: 991px){
+    bottom: calc(50% - 80px);
+   }
   }
  }
 
